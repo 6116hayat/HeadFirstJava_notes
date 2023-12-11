@@ -1,6 +1,10 @@
 package SimpleDotCom_Easy;
 
+import java.util.ArrayList;
+
 public class SimpleDotComGame {
+
+
     public static void main(String[] args) {
 
         // Declaring variable to hold user guess

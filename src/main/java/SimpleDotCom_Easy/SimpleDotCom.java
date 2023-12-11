@@ -1,8 +1,9 @@
 package SimpleDotCom_Easy;
 
 public class SimpleDotCom {
+
     int[] locationCells;
-    int numofHits = 0;
+    int numOfHits = 0;
 
     public void setLocationCells(int[] locs) {
         locationCells = locs;
@@ -13,15 +14,19 @@ public class SimpleDotCom {
         String result = "miss";
         for (int cell : locationCells) {
             if (guess == cell) {
+
                 result = "hit";
-                numofHits++;
+                numOfHits++;
                 break;
             }
         } // out of the loop
-        if (numofHits == locationCells.length){
+
+        if (numOfHits == locationCells.length){
             result = "kill";
         }
         System.out.println(result);
             return result;
     } // close method
 } // close class
+
+
